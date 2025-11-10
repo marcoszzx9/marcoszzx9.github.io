@@ -3,6 +3,5 @@
 ```diff
 I Love My Girl
 I Love Python
-
-
-![Visitors](https://komarev.com/ghpvc/?username=Dev&King&color=ff69b4)
+```
+[Visitors](https://komarev.com/ghpvc/?username=Dev&King&color=ff69b4)
