@@ -1,0 +1,26 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+.init {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.contact {
+margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.about,  .projects {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}

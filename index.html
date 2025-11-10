@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Para Fiverr</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <script>
+    alert("Obrigado por visitar meu portfólio!");
+    alert("Clique em qualquer lugar da tela para alternar entre o modo dourado e escuro.");
+
+    let dark = false;
+
+    document.body.onclick = function() {
+        if (dark == false) {
+            document.body.style.backgroundColor = "black";
+            dark = true;
+        } else {
+            document.body.style.backgroundColor = "darkgoldenrod";
+            dark = false;
+        }
+    }
+</script>
+
+    <div class="init">
+        <h1>Bem-vindo ao meu Portfólio Fiverr</h1>
+        <p>Aqui você encontrará sobre minha vida pessoal e profissional.</p>
+    </div>
+
+    <div class="about">
+        <h2>Sobre Mim</h2>
+        <h4>Sou Dev Júnior,tenho 12 anos e sei coneceitos básicos de C,Java,JavaScript,MySql,PHP e C++. Conceitos intermediários em Python,Html e CSS</h4>
+        <p>Faço projetos Django usando SQLite3, HTML e CSS com direito a JavaScript.<br>
+        Sou um desenvolvedor intermediário dessas linguagens, porém tenho projetos em Django com login, autenticação e automatização de envio de emails.</p>
+    </div>
+
+    <div class="projects">
+        <h2>Meus Projetos</h2>
+        <ul>
+            <li>Web App Django pessoal com lembretes</li>
+            <li>Sistema Web com Autenticação de Usuários</li>
+            <li>Envio e Recibo Automático de Emails</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Contatos Principais</h2>
+        <h3><a href="github.com/marcoszzx9" style = "color: white;">Meu GitHub</a></h3>
+        <p><a href="https://instagram.com/marcoscdz22" target="_blank" style = "color: white;">Instagram</a></p>
+        <p><a href="mailto:marcoszzx990@gmail.com" style = "color: white;">Email Principal</a></p>
+        <p><a href="mailto:marcoszzx991@gmail.com" style = "color: white;">Email Para Projetos</a></p>
+    </div>
+</body>
+</html>
